@@ -1,7 +1,12 @@
 import "./App.css";
+import MyNav from "./components/MyNav";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <MyNav />
+    </>
+  );
 }
 
 export default App;
