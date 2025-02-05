@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import MyNav from "./components/MyNav";
 import Welcome from "./components/Welcome";
-import AllTheBooks from "./components/AllTheBooks";
+import SingleBook from "./components/SingleBook";
 import MyFooter from "./components/MyFooter";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <>
       <MyNav />
       <Welcome />
-      <AllTheBooks />
+      <SingleBook />
       <MyFooter />
     </>
   );
