@@ -14,7 +14,7 @@ import { Component } from "react";
 import { Button } from "react-bootstrap";
 // import SingleBook from "./SingleBook";
 
-class App extends Component() {
+class App extends Component {
   state = {
     books: scifi,
   };
