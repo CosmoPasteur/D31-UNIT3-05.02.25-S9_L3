@@ -1,20 +1,40 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import BookList from "./components/BookList";
+import MyFooter from "./components/MyFooter";
 import MyNav from "./components/MyNav";
 import Welcome from "./components/Welcome";
-import BookList from "./components/BookList";
-import SingleBook from "./components/SingleBook";
-import MyFooter from "./components/MyFooter";
-import BookList from "./components/BookList";
+
+import fantasy from "../data/fantasy.json";
+import history from "../data/fantasy.json";
+import horror from "../data/fantasy.json";
+import romance from "../data/fantasy.json";
+import scifi from "../data/scifi.json";
+// import SingleBook from "./SingleBook";
 
 function App() {
   return (
     <>
       <MyNav />
       <Welcome />
-      <BookList />
-      {/* <AllTheBooks />
-      <SingleBook /> */}
+      {/* <div className="d-flex gap-1 my-4 justify-content-center">
+        <Button variant="primary" onClick={() => this.setState({ books: fantasy })}>
+          fantasy
+        </Button>
+        <Button variant="warning" onClick={() => this.setState({ books: history })}>
+          history
+        </Button>
+        <Button variant="danger" onClick={() => this.setState({ books: horror })}>
+          horror
+        </Button>
+        <Button variant="success" onClick={() => this.setState({ books: romance })}>
+          romance
+        </Button>
+        <Button variant="info" onClick={() => this.setState({ books: scifi })}>
+          scifi
+        </Button>
+      </div> */}
+      <BookList books={fantasy} />
       <MyFooter />
     </>
   );
