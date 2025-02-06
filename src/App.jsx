@@ -5,11 +5,11 @@ import MyFooter from "./components/MyFooter";
 import MyNav from "./components/MyNav";
 import Welcome from "./components/Welcome";
 
-import fantasy from "../data/fantasy.json";
-import history from "../data/fantasy.json";
-import horror from "../data/fantasy.json";
-import romance from "../data/fantasy.json";
-import scifi from "../data/scifi.json";
+import fantasy from "./data/fantasy.json";
+import history from "./data/history.json";
+import horror from "./data/fantasy.json";
+import romance from "./data/fantasy.json";
+import scifi from "./data/scifi.json";
 // import SingleBook from "./SingleBook";
 
 function App() {
