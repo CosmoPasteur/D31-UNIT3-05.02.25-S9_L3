@@ -1,4 +1,3 @@
-// import { Component } from "react";
 import { Alert, Container, Row } from "react-bootstrap";
 
 import SingleBook from "./SingleBook";
